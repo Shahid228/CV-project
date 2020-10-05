@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(233, 233, 233);
+}
+.main-div{
+    max-width:1000px;
+    background-image: linear-gradient(to bottom right, rgb(231, 255, 94),rgb(186, 255, 186));
+    margin: auto;
+    padding:30px;
+}
+.img-div{
+float: left;
+}
+.img1{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5 px solid rgb(219, 219, 219);
+   
+}
+.div-main-name{
+float: left;
+margin: 30px;
+}
+.adress{
+    float: right;
+    margin:30px;
+}
+.adress p{
+    font-size: 20px;
+    color: rgb(189, 132, 0);
+
+}
+.adress a{
+    text-decoration: none;
+    color:white;
+}
+.adress a:hover{
+color:orange;
+}
+.clear-div{
+    clear:both;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(189, 132, 0);
+}
+.hr1{
+    border: 1px solid rgb(143, 143, 143);
+    width:95%;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+.div-left{
+    width: 30%;
+    float: left;
+    padding-left: 30px;
+    padding-right:30px;
+    margin-bottom:20px;
+}
+.div-right{
+    float: left;
+    width: 60%;
+    margin-left: 30px;
+}
+.hr2{
+    border: 1px solid black;
+    border-bottom: none;
+    margin: 20px auto;
+    width:95%;
+
+}
+.last{
+    background-color:black;
+    max-width: 1060px;
+    margin:auto;
+    height:50px;
+   
+}
+.last p{
+    color:white;
+    text-align: center;
+    padding-top: 15px;
+    
+}
